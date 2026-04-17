@@ -14,7 +14,8 @@ juice = 100
 water = 50
 lemonade = 90
 
-match price:
-    case 1|"кофе"|"☕":
-        price=
+match order:
+    case 1|"кофе" | "☕":
+        price=coffee * quantity
+        print("{price}")
 
