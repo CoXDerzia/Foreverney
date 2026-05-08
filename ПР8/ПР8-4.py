@@ -7,5 +7,5 @@ procent = p/100
 population = 0
 
 for i in range(1, n+1):
-    population = int(m*(1+procent)**i-1)
+    population = int(m*(1+procent)**(i-1))
     print(f"Популяция в {i} день равна {population}")
