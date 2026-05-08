@@ -6,7 +6,7 @@ for i in range(1, 11):
     if num %2 == 0:
         pruff +=1
 
-if pruff %10 == 0:
+if pruff == 10:
         print("YES")
 else:
         print("NO")
