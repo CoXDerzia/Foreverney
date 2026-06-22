@@ -9,11 +9,11 @@ print("Последний элемент списка: ", last_numb)
 
 print("Список в обратном порядке: ", numb[::-1])
 
-if 5 in numb or 17 in numb:
+if 5 in numb and 17 in numb:
     print("Yes")
 else:
     print("No")
 
-numb.pop(0)
-numb.pop()
+del numb[0]
+del numb[-1]
 print("Список без первого и последнего чисел: ", numb)
