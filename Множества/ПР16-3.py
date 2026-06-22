@@ -5,7 +5,7 @@
 
 server_a = set(input("Ввод(Сервер A):").split())
 server_b = set(input("Ввод(Сервер B):").split())
-print("Вывод: ", *server_a, *server_b)
+print("Вывод: ")
 
 common = server_a.intersection(server_b)
 print("Общие: ", *common)
