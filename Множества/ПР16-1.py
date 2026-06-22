@@ -1,6 +1,6 @@
 words = input("Ввод: ")
 split_words = words.split()
-print("Вывод: ", *split_words)
+print("Вывод: ")
 
 massif_word = set(split_words)
 
